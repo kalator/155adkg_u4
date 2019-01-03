@@ -57,7 +57,7 @@ void Widget::on_pushButton_3_clicked()
     repaint();
 }
 
-void Widget::on_pushButton_5_clicked()
+/*void Widget::on_pushButton_5_clicked()
 {
     // Create buffer over polygons
     std::vector<QPointFB> A = ui->Canvas->getA();
@@ -72,7 +72,7 @@ void Widget::on_pushButton_5_clicked()
 
     repaint();
 
-}
+}*/
 
 void Widget::on_draw_poly_check_clicked()
 {
