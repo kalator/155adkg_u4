@@ -134,23 +134,65 @@ Množinové operace:
 \item \hspace{3cm} ProcessIntersection $ (b, \alpha, A, i) $ //Zpracuj první průsečík pro $ e_i $
 \end{enumerate}
 
+\textbf{Process Intersection} 
+\begin{enumerate}
+	\item $ if (|t| < \epsilon): $ 
+	\item \hspace {1cm} $ P[i] \longleftarrow inters $  //Startovní bod průsečíkem
+	\item  $ if (|t-1| < \epsilon): $
+	\item \hspace {1cm}  $ P[(i+1)\%m] \longleftarrow inters$ // Koncový bod průsečíkem
+	\item  $ else:$
+	\item \hspace {1cm} ProcessIntersection $ i \longleftarrow i+1 $ //Inkrementuj pozici
+	\item \hspace {1cm} if $P \longleftarrow  (b,i)$ // Přidej průsečík na pozici i+1
+\end{enumerate}
+
 \clearpage
 
-\subsection{Vytvoření a sestavení fragmentů}
+\subsection{Fragmenty}
 
 \subsubsection{Vytvoření fragmentů - implementace metody}
 \begin{enumerate}
-	\item doplnit
+	\item $ i \longleftarrow 0 $
+	\item $ while (g(P[i]) \neq g \vee P[i] \neq inters) $ //Dokud P[i] není průsečík s orientací g
+	\item \hspace{1cm} $ i \longleftarrow i+1 $
+	\item $ if (i\equiv n) $ return; //Žádný bod s touto orientací neexistuje
+	\item $ i_s \longleftarrow i $ //Zapamatuj startovní index prvního průsečíku
+	\item $ do $
+	\item \hspace{1cm} $ f = \emptyset $ //Prázdný fragment
+	\item \hspace{1cm} $ if (createFragmentFromVertices (i_s, P, g, i f)) $ //Nalezen fragment
+	\item \hspace{2cm} $ if (s) f.reverse() $ //Swapuj prvky fragmentu, je-li třeba
+	\item \hspace{2cm} $ F[f[0]] \longrightarrow f $ //Přidej fragment do mapy, klíč poč. bod
+	\item \hspace{1cm} $ i \longleftarrow (i+1)\%m $
+	\item $ while (i \neq i_s) $ //Dokud nedojdeme k počátečnímu průsečíku
 \end{enumerate}
 
-\subsubsection{Sestavení fragmentů - implementace metody}
+\textbf{createFragmentFromVertices}
+
 \begin{enumerate}
-	\item doplnit
+	\item  $ if (g(P[i]) \neq g \vee P[i] \neq inters) $ //Bod není průsečíkem s orientací g
+	\item \hspace{1cm} $ return $ $ false $ 
+	\item for (;;) 
+	\item \hspace{1cm} $  f \longleftarrow P[i] $ // Přidej bod do fragmentu
+	\item \hspace{1cm} $ i \longleftarrow (i+1)\%n $
+	\item \hspace{1cm} $ if (i \equiv i_s) $ //Obešli jsme celý polygon
+	\item \hspace{2cm} $ return$  $ false $ 
+	\item \hspace{1cm} $ if (g(P[i]) \neq g)  $ // První bod s rozdílou orientací
+	\item \hspace{2cm} $ f \longleftarrow P[i] $ //Přidej ho do seznamu
+	\item \hspace{2cm} $ return$  $true $
+
 \end{enumerate}
 
-\subsection{Vytvoření polygonu z fragmentů}
+\subsubsection{Sestavení oblastí z fragmentů - implementace metody}
+\begin{enumerate}
+	\item $ for \forall f \in F $
+	\item \hspace{1cm} $ P \longleftarrow \emptyset $ //Vytvoř prázdný polygon
+	\item \hspace{1cm} $ s \longleftarrow f.first $ //Najdi startovní bod fragmentu
+	\item \hspace{1cm} $ if (!f.second.first) $ //Pokud fragment již nebyl zpracován
+		\item \hspace{2cm} $ if (createPolygonFROMFragments(s,F,P)) $ 
+			\item \hspace{3cm} $ C \longleftarrow P $ //Přidej polygon do seznamu	
+\end{enumerate}
 
-\subsubsection{Implementace metody}
+\subsubsection{Vytvoření polygonu z fragmentů  - implementace metody}
+
 \begin{enumerate}
 	\item  $ QPoint n \longleftarrow s $ //Inicializuj následující bod
 	\item for (;;) //Projdi všechyn fragmenty tvořící polygon
