@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Widget</string>
+   <string>Boolean Operations on Polygons</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout">
    <item>
@@ -94,6 +94,13 @@
       <widget class="QPushButton" name="pushButton_2">
        <property name="text">
         <string>Boolean Operations</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Buffer</string>
        </property>
       </widget>
      </item>

@@ -24,4 +24,11 @@ typedef enum
     NONINTERSECTING
 } T2LinesPosition;
 
+typedef enum
+{
+    LEFT,
+    RIGHT,
+    COL
+} TPointLinePosition;
+
 #endif // TYPES_H
