@@ -1,8 +1,12 @@
 #include "draw.h"
 
+#include <QDebug>
+#include <fstream>
+
 Draw::Draw(QWidget *parent) : QWidget(parent)
 {
     ab = true;
+    draw_pol = false;
     /*
     QPointFB p1(0,0);
     QPointFB p2(100,0);
@@ -26,8 +30,6 @@ void Draw::paintEvent(QPaintEvent *e)
 {
     QPainter painter (this);
 
-    painter.begin(this);
-
     //Draw polygon A
     painter.setPen(Qt::green);
     drawPol(polA, painter);
@@ -37,7 +39,8 @@ void Draw::paintEvent(QPaintEvent *e)
     drawPol(polB, painter);
 
     //Draw result
-    painter.setPen(Qt::red);
+    QPen pen_result(Qt::red, 3);
+    painter.setPen(pen_result);
     for(std::vector<QPointFB> vec: res)
     {
         drawPol(vec, painter);
@@ -66,6 +69,9 @@ void Draw::drawPol(std::vector<QPointFB> &pol, QPainter &painter)
 
 void Draw::mousePressEvent(QMouseEvent *e)
 {
+    if(draw_pol == false)
+        return;
+
     QPointFB p(e->x(), e->y());
 
     //Add to polA
@@ -95,4 +101,79 @@ void Draw::clearResults()
 {
     // Clear results in canvas
     res.clear();
+}
+
+void Draw::loadPoints(std::string path, QSizeF &canvas_size)
+{
+    std::ifstream points_file;
+    points_file.open(path);
+
+    //check if points_file is correctly open (or if it exists)
+    if(!points_file.is_open())
+    {
+        return;
+    }
+
+
+    polA.clear();
+    polB.clear();
+
+    //go through file and load points into poly_pol (storing all polygons)
+    double min_x = std::numeric_limits<double>::max();
+    double min_y = std::numeric_limits<double>::max();
+    double max_x = std::numeric_limits<double>::min();
+    double max_y = std::numeric_limits<double>::min();
+
+    while(points_file.good())
+    {
+        int no_of_points;
+        double x,y;
+
+        points_file >> no_of_points;
+        for(int i = 0; i < no_of_points; i++)
+        {
+            points_file >> x;
+            points_file >> y;
+            polA.push_back(QPointFB(x, y));
+            if(x < min_x) min_x = x;
+            if(x > max_x) max_x = x;
+            if(y < min_y) min_y = y;
+            if(y > max_y) max_y = y;
+        }
+
+        points_file >> no_of_points;
+        for(int i = 0; i < no_of_points; i++)
+        {
+            points_file >> x;
+            points_file >> y;
+            polB.push_back(QPointFB(x, y));
+            if(x < min_x) min_x = x;
+            if(x > max_x) max_x = x;
+            if(y < min_y) min_y = y;
+            if(y > max_y) max_y = y;
+        }
+
+        break;
+
+    }
+
+    //scale points to canvas size
+    double h = canvas_size.height() - 40;
+    double w = canvas_size.width() - 40;
+
+    double x_coef = w/(max_x-min_x);
+    double y_coef = h/(max_y-min_y);
+
+    for(unsigned int i = 0; i < polA.size(); i++)
+    {
+        polA[i].setX((polA[i].x()-min_x)*x_coef);
+        polA[i].setY((polA[i].y()-min_y)*y_coef);
+    }
+
+    for(unsigned int i = 0; i < polB.size(); i++)
+    {
+        polB[i].setX((polB[i].x()-min_x)*x_coef);
+        polB[i].setY((polB[i].y()-min_y)*y_coef);
+    }
+    points_file.close();
 }

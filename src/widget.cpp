@@ -7,6 +7,7 @@ Widget::Widget(QWidget *parent) :
     ui(new Ui::Widget)
 {
     ui->setupUi(this);
+
 }
 
 Widget::~Widget()
@@ -16,7 +17,7 @@ Widget::~Widget()
 
 void Widget::on_pushButton_clicked()
 {
-    ui->Canvas->setAB();
+        ui->Canvas->setAB();
 }
 
 void Widget::on_pushButton_4_clicked()
@@ -52,7 +53,8 @@ void Widget::on_pushButton_2_clicked()
 
 void Widget::on_pushButton_3_clicked()
 {
-
+    ui->Canvas->clearResults();
+    repaint();
 }
 
 void Widget::on_pushButton_5_clicked()
@@ -70,4 +72,32 @@ void Widget::on_pushButton_5_clicked()
 
     repaint();
 
+}
+
+void Widget::on_draw_poly_check_clicked()
+{
+    ui->Canvas->setDrawPol();
+}
+
+void Widget::on_load_button_clicked()
+{
+    //get path to directory upper of build
+    QDir current_path = QDir::currentPath();
+    current_path.cdUp();
+    QString path = current_path.path();
+
+    //open file dialog
+    QString point_path = QFileDialog::getOpenFileName(
+                this,
+                tr("Select file"),
+                path,
+                "Text file (*.txt);;All files (*.*)");
+
+    //convert path from QString to string (change coding to utf8 for ifstream)
+    std::string point_path_utf8 = point_path.toUtf8().constData();
+
+    QSizeF canvas_size = ui->Canvas->size();
+
+    ui->Canvas->loadPoints(point_path_utf8, canvas_size); //load
+    repaint();
 }
