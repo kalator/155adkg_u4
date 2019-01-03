@@ -85,12 +85,13 @@ Anna Zemánková \\
 \section{Zadání}
 
 \begin{figure}[h!]
-	\includegraphics[clip, trim=0cm 5cm 0cm 3cm, width=1.0\textwidth]{zadani.pdf}
+	\includegraphics[clip, trim=0cm 4cm 0cm 3cm, width=1.0\textwidth]{zadani.pdf}
 \end{figure}
 
 
 \section{Údaje o bonusových úlohách}
 
+V rámci této úlohy nebyly zpracovány žádné bonusy.
 
 
 
@@ -119,7 +120,6 @@ Množinové operace:
 
 \subsection{Výpočet průsečíků}
 
-\vspace{1.5cm}
 \subsubsection{Implementace metody}
 \begin{enumerate}
 \item $ for (i = 0; i < n, i++) $ 
@@ -133,6 +133,8 @@ Množinové operace:
 \item  \hspace{3cm} $ b \longleftarrow m.second $ // Získej 2. hodnotu z páru
 \item \hspace{3cm} ProcessIntersection $ (b, \alpha, A, i) $ //Zpracuj první průsečík pro $ e_i $
 \end{enumerate}
+
+\vspace{1cm}
 
 \textbf{Process Intersection} 
 \begin{enumerate}
@@ -165,6 +167,8 @@ Množinové operace:
 	\item $ while (i \neq i_s) $ //Dokud nedojdeme k počátečnímu průsečíku
 \end{enumerate}
 
+\vspace{1cm}
+
 \textbf{createFragmentFromVertices}
 
 \begin{enumerate}
@@ -181,6 +185,8 @@ Množinové operace:
 
 \end{enumerate}
 
+\clearpage
+
 \subsubsection{Sestavení oblastí z fragmentů - implementace metody}
 \begin{enumerate}
 	\item $ for \forall f \in F $
@@ -191,6 +197,7 @@ Množinové operace:
 			\item \hspace{3cm} $ C \longleftarrow P $ //Přidej polygon do seznamu	
 \end{enumerate}
 
+\vspace{1.5cm}
 \subsubsection{Vytvoření polygonu z fragmentů  - implementace metody}
 
 \begin{enumerate}
@@ -205,6 +212,8 @@ Množinové operace:
 	\item \hspace{1cm} $ if (n \equiv s) $ // Obešli jsme polygon, jsme na startu
 	\item \hspace{2cm} $ return$  $true $
 \end{enumerate}
+
+\clearpage
 
 \subsection{Množinové operace}
 
@@ -226,12 +235,7 @@ Množinové operace:
 	\item $ MergeFragments (A,B,C) $
 \end{enumerate}
 
-
-\subsection{Offset}
-\subsubsection{Implementace metody}
-\begin{enumerate}
-	\item DOPLNIT 
-\end{enumerate}
+\clearpage
 % ===============================================================
 
 \section{Vstupní data}
@@ -241,20 +245,6 @@ Množinové operace:
 
 \clearpage
 \section{Ukázka vytvořené aplikace}
-
-
-\clearpage
-
-
-Nejprve je třeba zadat vstupní data - množinu bodů.\\
-
-
-Následně je možné vybrat metodu výpočtu konvexní obálky a kliknutím na tlačítko GO v 
-sekci Create convex hull zahájen výpočet a vizualizace konvexní obálky zadané množiny bodů.
-Pod tlačítkem Go je vypsán čas, jak dlouho trval výpočet.\\
-
-
-Vše je uvedeno do původního stavu (smazány body i vypočtené vyýsledky) kliknutím na tlačítko Clear.\\
 
 \clearpage
 
@@ -571,11 +561,11 @@ Třída sloužící pro vykreslení okna s nápovědou.
 \section{Zdroje}
 
 \begin{enumerate}
-\item  BAYER, Tomáš. Konvexní obálky [online][cit. 21.10.2018]. \\
-Dostupné z: https://web.natur.cuni.cz/~bayertom/images/courses/Adk/adk4.pdf  \\
+\item  BAYER, Tomáš. Konvexní obálky [online][cit. 3.1.2019]. \\
+Dostupné z: https://web.natur.cuni.cz/~bayertom/images/courses/Adk/adk9.pdf  \\
 
-\item  BAYER, Tomáš. Konvexní obálky [online][cit. 30.11.2018]. \\
-Dostupné z: https://web.natur.cuni.cz/~bayertom/images/courses/Adk/adkcv2.pdf\\
+\item  BAYER, Tomáš. Konvexní obálky [online][cit. 3.1.2019]. \\
+Dostupné z: https://web.natur.cuni.cz/~bayertom/images/courses/Adk/adkcv4.pdf\\
 %=======================================================================================
 \end{enumerate}
 \end{document}
