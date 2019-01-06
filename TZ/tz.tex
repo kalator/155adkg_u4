@@ -320,6 +320,30 @@ Výsledek aplikace je zobrazen graficky na kanvasu (červenou barvou).
 
 \section{Dokumentace}
 
+\subsection{Types}
+Tato třída je využita k definici výčtových typů použitých jako návratové hodnoty v algoritmech použitých v aplikaci.
+\begin{itemize}
+	\item Výčtový typ \textbf{TPointPolygon}.
+	\begin{itemize}
+		\item \textit{INSIDE, OUTSIDE, ON}
+	\end{itemize}
+	\item Výčtový typ \textbf{TBooleanOperation}.
+	\begin{itemize}
+		\item \textit{INTERSECTION, UNION, DIFFAB, DIFFBA}
+	\end{itemize}
+	\item Výčtový typ \textbf{T2LinesPosition}.
+	\begin{itemize}
+		\item \textit{PARALLEL, COLINEAR, INTERSECTIONG, NONINTERSECTING}
+	\end{itemize}
+	\item Výčtový typ \textbf{TPointLinePosition}.
+	\begin{itemize}
+		\item \textit{LEFT, RIGHT, COL}
+	\end{itemize}
+\end{itemize}
+
+\subsection{QPointFB}
+Definice nového datového typu \textbf{QPointFB}, který dědí od třídy \textbf{QPointF}. 
+
 \subsection{Algorithms}
 V třídě Algorithms jsou staticky implementovány algoritmy počítající kovexní obálku a minimální ohraničující obdélník (včetně vodící linie).
 
