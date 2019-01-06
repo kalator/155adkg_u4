@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.13)  6 JAN 2019 11:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.13)  6 JAN 2019 11:11
 entering extended mode
 **./tz.tex
 (tz.tex
@@ -570,7 +570,7 @@ LaTeX Info: Redefining \nameref on input line 41.
  [1
 
 {C:/Users/Anna/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<zadani.pdf, id=114, 614.295pt x 794.97pt>
+<zadani.pdf, id=110, 614.295pt x 794.97pt>
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf>
 Package pdftex.def Info: zadani.pdf  used on input line 88.
@@ -602,7 +602,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
-<BO.jpg, id=182, 2100.04575pt x 1252.68pt>
+<BO.jpg, id=178, 2100.04575pt x 1252.68pt>
 File: BO.jpg Graphic file (type jpg)
 <use BO.jpg>
 Package pdftex.def Info: BO.jpg  used on input line 113.
@@ -697,7 +697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<inter.jpg, id=282, 737.75626pt x 536.60475pt>
+<inter.jpg, id=278, 737.75626pt x 536.60475pt>
 File: inter.jpg Graphic file (type jpg)
 <use inter.jpg>
 Package pdftex.def Info: inter.jpg  used on input line 269.
@@ -710,12 +710,12 @@ Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textasciicaron' on input line 274.
 
-<ap.jpg, id=293, 737.75626pt x 536.60475pt>
+<ap.jpg, id=289, 737.75626pt x 536.60475pt>
 File: ap.jpg Graphic file (type jpg)
 <use ap.jpg>
 Package pdftex.def Info: ap.jpg  used on input line 277.
 (pdftex.def)             Requested size: 284.52756pt x 206.94963pt.
-<vstup.jpg, id=294, 737.75626pt x 536.60475pt>
+<vstup.jpg, id=290, 737.75626pt x 536.60475pt>
 File: vstup.jpg Graphic file (type jpg)
 <use vstup.jpg>
 Package pdftex.def Info: vstup.jpg  used on input line 284.
@@ -727,7 +727,7 @@ Package pdftex.def Info: inter.jpg  used on input line 290.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<union.jpg, id=295, 737.75626pt x 536.60475pt>
+<union.jpg, id=291, 737.75626pt x 536.60475pt>
 File: union.jpg Graphic file (type jpg)
 <use union.jpg>
 Package pdftex.def Info: union.jpg  used on input line 296.
@@ -735,7 +735,7 @@ Package pdftex.def Info: union.jpg  used on input line 296.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<A-B.jpg, id=296, 737.75626pt x 536.60475pt>
+<A-B.jpg, id=292, 737.75626pt x 536.60475pt>
 File: A-B.jpg Graphic file (type jpg)
 <use A-B.jpg>
 Package pdftex.def Info: A-B.jpg  used on input line 302.
@@ -743,7 +743,7 @@ Package pdftex.def Info: A-B.jpg  used on input line 302.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<B-A.jpg, id=297, 737.75626pt x 536.60475pt>
+<B-A.jpg, id=293, 737.75626pt x 536.60475pt>
 File: B-A.jpg Graphic file (type jpg)
 <use B-A.jpg>
 Package pdftex.def Info: B-A.jpg  used on input line 309.
@@ -812,45 +812,42 @@ Overfull \hbox (10.21129pt too wide) in paragraph at lines 601--602
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 611.
+(hyperref)                removing `\textasciicaron' on input line 607.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+e'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 613.
 
 [19
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 625--627
 
-Package hyperref Warning: Composite letter `\textasciicaron+e'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 618.
+ []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 628--631
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 632.
 [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 630--632
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--636
-
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 637.
-[21
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 637.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 632.
  (tz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 637.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 637.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 632.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 632.
 Package rerunfilecheck Info: File `tz.out' has not changed.
-(rerunfilecheck)             Checksum: 5750C840A63BF767288954971803A342;1764.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 637.
+(rerunfilecheck)             Checksum: 97246F74A065991E4F45A29944A0D9CC;1703.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 632.
  ) 
 Here is how much of TeX's memory you used:
- 10181 strings out of 492970
- 148089 string characters out of 3127037
+ 10176 strings out of 492970
+ 148023 string characters out of 3127037
  266270 words of memory out of 3000000
- 13761 multiletter control sequences out of 15000+200000
+ 13758 multiletter control sequences out of 15000+200000
  10449 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,7n,39p,448b,625s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -875,9 +872,9 @@ na/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 amsfonts/cm/cmti10.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on tz.pdf (22 pages, 1440476 bytes).
+Output written on tz.pdf (21 pages, 1440130 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 247 words of extra memory for PDF output out of 10000 (max. 10000000)
 
