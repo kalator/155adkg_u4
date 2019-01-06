@@ -10,15 +10,17 @@
 \BOOKMARK [3][-]{subsubsection.4.2.3}{Vytvoren\355 polygonu z fragmentu - implementace metody}{subsection.4.2}% 10
 \BOOKMARK [2][-]{subsection.4.3}{Mno\236inov\351 operace}{section.4}% 11
 \BOOKMARK [3][-]{subsubsection.4.3.1}{Implementace metody}{subsection.4.3}% 12
-\BOOKMARK [1][-]{section.5}{Vstupn\355 data}{}% 13
-\BOOKMARK [1][-]{section.6}{V\375stupn\355 data}{}% 14
-\BOOKMARK [1][-]{section.7}{Uk\341zka vytvoren\351 aplikace}{}% 15
-\BOOKMARK [2][-]{subsection.7.1}{Algorithms}{section.7}% 16
-\BOOKMARK [2][-]{subsection.7.2}{Draw}{section.7}% 17
-\BOOKMARK [2][-]{subsection.7.3}{SortByXAsc, SortByYAsc, SortByAngleAsc}{section.7}% 18
-\BOOKMARK [2][-]{subsection.7.4}{Widget}{section.7}% 19
-\BOOKMARK [2][-]{subsection.7.5}{HelpDialog}{section.7}% 20
-\BOOKMARK [1][-]{section.8}{Pr\355lohy}{}% 21
-\BOOKMARK [1][-]{section.9}{Z\341ver}{}% 22
-\BOOKMARK [2][-]{subsection.9.1}{N\341vrhy na vylep\235en\355}{section.9}% 23
-\BOOKMARK [1][-]{section.10}{Zdroje}{}% 24
+\BOOKMARK [1][-]{section.5}{Problematick\351 situace}{}% 13
+\BOOKMARK [1][-]{section.6}{Vstupn\355 data}{}% 14
+\BOOKMARK [1][-]{section.7}{V\375stupn\355 data}{}% 15
+\BOOKMARK [1][-]{section.8}{Uk\341zka vytvoren\351 aplikace}{}% 16
+\BOOKMARK [1][-]{section.9}{Dokumentace}{}% 17
+\BOOKMARK [2][-]{subsection.9.1}{Algorithms}{section.9}% 18
+\BOOKMARK [2][-]{subsection.9.2}{Draw}{section.9}% 19
+\BOOKMARK [2][-]{subsection.9.3}{SortByXAsc, SortByYAsc, SortByAngleAsc}{section.9}% 20
+\BOOKMARK [2][-]{subsection.9.4}{Widget}{section.9}% 21
+\BOOKMARK [2][-]{subsection.9.5}{HelpDialog}{section.9}% 22
+\BOOKMARK [1][-]{section.10}{Pr\355lohy}{}% 23
+\BOOKMARK [1][-]{section.11}{Z\341ver}{}% 24
+\BOOKMARK [2][-]{subsection.11.1}{N\341vrhy na vylep\235en\355}{section.11}% 25
+\BOOKMARK [1][-]{section.12}{Zdroje}{}% 26

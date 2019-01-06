@@ -238,6 +238,9 @@ Množinové operace:
 \clearpage
 % ===============================================================
 
+\section{Problematické situace}
+\clearpage
+
 \section{Vstupní data}
 
 Dva polygony mohou být "nakresleny" klikáním do kanvasu, pomocí tlačítka \textit{Polygon A/B} lze přepínat mezi polygony.\\
@@ -250,10 +253,10 @@ Dva polygony mohou být "nakresleny" klikáním do kanvasu, pomocí tlačítka \
 \item souřadnice X a Y bodů druhého polygonu atd.
 \end{enumerate}
 
-Př.: Vstupní soubor se 2 polygony, kde první polygon obsahuje 3 body a druhý polygon 4 body bude vypadat následovně:\\
+Př.: Vstupní soubor se 2 polygony, kde první polygon obsahuje 6 bodů a druhý polygon 5 bodů bude vypadat následovně:\\
  
-\noindent 3 12.2 4.1 8.3 11.4 6.8 7.9 \\
-4 1.1 2.2 3.3 4.4 5.5 6.6 7 8\\
+\noindent 6 5 10 20 5 20 40 30 12 39 46 15 48\\
+5 2 25 25 20 50 30 23 51 22 43\\
 
 Vše může být zapsáno do jednoho řádku, odděleno mezerami nebo jako v příkladu výše může každý útvar začínat na novém řádku.\\
 
@@ -261,17 +264,59 @@ Vše může být zapsáno do jednoho řádku, odděleno mezerami nebo jako v př
 \section{Výstupní data}
 Výsledek aplikace je zobrazen graficky na kanvasu (červenou barvou).
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{inter.jpg}
+	\caption{Intersection}
+\end{figure}
 \clearpage
 %--------------------------------------------------------------------------------------------------------------------------------------
-
-
 \section{Ukázka vytvořené aplikace}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{ap.jpg}
+	\caption{Aplikace}
+\end{figure}
+
+%OBRÁZEK
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{vstup.jpg}
+	\caption{Nahrání vstupních dat}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=12cm]{inter.jpg}
+	\caption{Intersection}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=12cm]{union.jpg}
+	\caption{Union}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=12cm]{A-B.jpg}
+	\caption{Difference A-B}
+\end{figure}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=12cm]{B-A.jpg}
+	\caption{Difference B-A}
+\end{figure}
+
 
 \clearpage
 
 %=======================================================================================
 
 
+\section{Dokumentace}
 
 \subsection{Algorithms}
 V třídě Algorithms jsou staticky implementovány algoritmy počítající kovexní obálku a minimální ohraničující obdélník (včetně vodící linie).
