@@ -46,12 +46,12 @@ void Draw::paintEvent(QPaintEvent *e)
         drawPol(vec, painter);
     }
 
-    //Draw offset
+/*    //Draw offset
     painter.setPen(Qt::cyan);
     for(std::vector<QPointFB> b: buff)
     {
         drawPol(b, painter);
-    }
+    }*/
 }
 
 void Draw::drawPol(std::vector<QPointFB> &pol, QPainter &painter)
