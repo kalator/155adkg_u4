@@ -1,6 +1,7 @@
 #include "widget.h"
 #include "ui_widget.h"
 #include "algorithms.h"
+#include <QFileDialog>
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),

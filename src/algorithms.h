@@ -24,9 +24,9 @@ public:
     static std::vector<std::vector<QPointFB> > BooleanOper(std::vector<QPointFB> &A, std::vector<QPointFB> &B, TBooleanOperation oper);
     static void resetIntersections(std::vector<QPointFB> &A);
     static std::vector<QPointFB> lineOffset(QPointFB &p1,QPointFB &p2, double d, double delta);
-    static std::vector<std::vector<QPointFB> > lineOffset(std::vector<QPointFB> &pol, double d, double delta);
-    static void sampleArc(QPointFB &s, double r, double fi_s, double fi_e, double delta, std::vector<QPointFB> &pol);
-    static std::vector<std::vector<QPointFB> > polygonOffset(std::vector<QPointFB> &pol, double d, double delta);
+//    static std::vector<std::vector<QPointFB> > lineOffset(std::vector<QPointFB> &pol, double d, double delta);
+//    static void sampleArc(QPointFB &s, double r, double fi_s, double fi_e, double delta, std::vector<QPointFB> &pol);
+//    static std::vector<std::vector<QPointFB> > polygonOffset(std::vector<QPointFB> &pol, double d, double delta);
 };
 
 #endif // ALGORITHMS_H

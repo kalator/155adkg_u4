@@ -423,7 +423,7 @@ void Algorithms::resetIntersections(std::vector<QPointFB> &pol)
     }
 }
 
-std::vector<QPointFB> Algorithms::lineOffset(QPointFB &p1,QPointFB &p2, double d, double delta)
+/*std::vector<QPointFB> Algorithms::lineOffset(QPointFB &p1,QPointFB &p2, double d, double delta)
 {
     //Offset of the line segment
     std::vector<QPointFB> C;
@@ -524,4 +524,4 @@ std::vector<std::vector<QPointFB> > Algorithms::polygonOffset(std::vector<QPoint
     }
 
     return buff;
-}
+}*/

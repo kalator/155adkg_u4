@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.13)  6 JAN 2019 12:24
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.17)  6 JAN 2019 11:38
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.17)  6 JAN 2019 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1027,107 +1023,118 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [9
 
  <./ap.jpg> <./vstup.jpg>] [10 <./union.jpg>] [11 <./A-B.jpg> <./B-A.jpg>]
+Overfull \hbox (5.63643pt too wide) in paragraph at lines 349--350
+[][]\OT1/cmr/m/n/12 Clensk^^Sa prom^^Tenn^^Sa \OT1/cmr/bx/n/12 pos \OT1/cmr/m/n
+/12 - in-di-kuje po-lohu bodu v^^Wu^^Tci po-ly-gonu, jej^^S^^Pm ty-pem je \OT1/
+cmr/bx/n/12 TPoint-
+ []
+
+
+Overfull \hbox (34.30626pt too wide) in paragraph at lines 356--357
+[]\OT1/cmr/bx/n/12 setAlfa, setBeta, se-tIn-ters, setPo-si-tion \OT1/cmr/m/n/12
+ - na-sta-ven^^S^^P hod-not ^^Tclensk^^Sych prom^^Tenn^^Sych 
+ []
+
 [12
 
-] [13]
-Overfull \hbox (20.10316pt too wide) in paragraph at lines 484--485
-[]\OT1/cmr/m/n/12 Pomocn^^Sa me-toda k v^^Sypo^^Tctu kon-vexn^^S^^P ob^^Salky m
-e-to-dou Quick Hull. Jej^^S^^Pm v^^Systupn^^S^^Pm
- []
-
-[14] [15]
-Overfull \hbox (17.7976pt too wide) in paragraph at lines 548--549
-[]\OT1/cmr/bx/n/12 QPolygonF rect \OT1/cmr/m/n/12 - po-ly-gon ob-sa-huj^^S^^Pc^
-^S^^P body mi-nim^^Saln^^S^^Pho ohrani^^Tcuj^^S^^Pc^^S^^Pho obd^^Seln^^S^^Pku 
- []
-
-
-Overfull \hbox (10.29562pt too wide) in paragraph at lines 554--555
-\OT1/cmr/m/n/12 ohrani^^Tcuj^^S^^Pc^^S^^Pho obd^^Seln^^S^^Pka. Me-toda se vol^^
-Sa po-moc^^S^^P me-tody \OT1/cmr/bx/n/12 re-pa-int()\OT1/cmr/m/n/12 . N^^Savrat
-ov^^Sym
- []
-
-
-Overfull \hbox (15.2079pt too wide) in paragraph at lines 585--586
-[]\OT1/cmr/m/n/12 Tato me-toda slou^^Tz^^S^^P pro za-vol^^San^^S^^P al-go-ritmu
- pro v^^Sypo^^Tcte mi-nim^^Saln^^S^^Pho ohrani^^Tcuj^^S^^Pc^^S^^Pho
- []
-
-
-Overfull \hbox (11.52641pt too wide) in paragraph at lines 588--589
-[]\OT1/cmr/bx/n/12 bool draw[]dir[]line \OT1/cmr/m/n/12 - u^^Tzivatelsky na-sta
--ven^^Sy in-dik^^Sator, zda-li se m^^Sa vypo^^Tc^^S^^Ptat
- []
-
-[16
-
-] [17]
-Overfull \hbox (6.65611pt too wide) in paragraph at lines 617--618
-[]\OT1/cmr/m/n/12 Metoda \OT1/cmr/bx/n/12 on[]createCHButton[]clicked \OT1/cmr/
-m/n/12 - re-a-guje na zm^^Sa^^Tcknut^^S^^P tla^^Tc^^S^^Ptka pro vypo^^Tcten^^S^
-^P
- []
-
-
-Overfull \hbox (13.82971pt too wide) in paragraph at lines 623--624
-[]\OT1/cmr/m/n/12 Metoda \OT1/cmr/bx/n/12 on[]createRectButton[]clicked \OT1/cm
-r/m/n/12 - re-a-guje na zm^^Sa^^Tcknut^^S^^P tla^^Tc^^S^^Ptka pro vypo^^Tcten^^
-S^^P
- []
-
-
-Overfull \hbox (10.21129pt too wide) in paragraph at lines 625--626
-[]\OT1/cmr/m/n/12 Metoda \OT1/cmr/bx/n/12 on[]helpButton[]clicked \OT1/cmr/m/n/
-12 - re-a-guje na zm^^Sa^^Tcknut^^S^^P tla^^Tc^^S^^Ptka pro vol^^San^^S^^P n^^S
-apov^^Tedy,
- []
-
-[18
-
 ]
+Overfull \hbox (15.1541pt too wide) in paragraph at lines 386--387
+\OT1/cmr/m/n/12 hod-nota jeho pa-ra-me-tru \OT1/cmr/bx/n/12 al-fa-/beta\OT1/cmr
+/m/n/12 , ob-last zpra-cov^^San^^S^^P \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/i
+t/12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >$
+ []
+
+
+Overfull \hbox (8.68832pt too wide) in paragraph at lines 398--399
+[]\OT1/cmr/m/n/12 Pomocn^^Sa me-toda me-tody \OT1/cmr/bx/n/12 cre-a-teFrag-ment
+s \OT1/cmr/m/n/12 pro v^^Sypo^^Tcet frag-ment^^Wu. V^^Systupn^^S^^Pm
+ []
+
+
+Overfull \hbox (26.5932pt too wide) in paragraph at lines 398--399
+\OT1/cmr/m/n/12 po^^Tc^^Sate^^Tcn^^S^^Pho bodu frag-mentu \OT1/cmr/bx/n/12 int 
+i[]start\OT1/cmr/m/n/12 , body po-ly-gonu \OT1/cmr/bx/n/12 std::vector$\OML/cmm
+/m/it/12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >$
+ []
+
+
+Overfull \hbox (42.48456pt too wide) in paragraph at lines 402--403
+\OT1/cmr/m/n/12 a vek-tor vek-tor^^Wu bod^^Wu v^^Sysledn^^Sych po-ly-gon^^Wu \O
+T1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 std::vector$\OML
+/cmm/m/it/12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >>$
+ []
+
+[13]
+Overfull \hbox (11.49619pt too wide) in paragraph at lines 410--411
+\OT1/cmr/m/n/12 znam^^Senkem ori-en-taci po-ly-gonu. Na vstupu je po-ly-gon \OT
+1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm
+/m/it/12 >$
+ []
+
+
+Overfull \hbox (39.69748pt too wide) in paragraph at lines 414--415
+\OT1/cmr/m/n/12 vstupu jsou dva po-ly-gony, nad nimi^^Tz jsou ope-race po^^Tc^^
+S^^Pt^^Sany: \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 Q
+PointFB$\OML/cmm/m/it/12 >$
+ []
+
+[14]
+Overfull \hbox (10.0897pt too wide) in paragraph at lines 440--441
+[]\OT1/cmr/m/n/12 Metoda zaji^^Tst[]uj^^S^^Pc^^S^^P ulo^^Tzen^^S^^P na-kli-kan^
+^Sych bod^^Wu do p^^Tr^^S^^Pslu^^Tsn^^Sych po-ly-gon^^Wu. V^^Systupn^^S^^Pm
+ []
+
+
+Overfull \hbox (15.47675pt too wide) in paragraph at lines 452--453
+[]\OT1/cmr/m/n/12 Metody \OT1/cmr/bx/n/12 se-tRes \OT1/cmr/m/n/12 resp. \OT1/cm
+r/bx/n/12 setA \OT1/cmr/m/n/12 resp. \OT1/cmr/bx/n/12 setB \OT1/cmr/m/n/12 slou
+^^Tz^^S^^Pc^^S^^P pro ulo^^Tzen^^S^^P po-ly-gon^^Wu do p^^Tr^^S^^Pslu^^Tsn^^Syc
+h
+ []
+
+[15] [16]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 631.
+(hyperref)                removing `\textasciicaron' on input line 501.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 637.
+(hyperref)                removing `\textasciicaron' on input line 507.
 
-[19
+[17
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 649--651
+Underfull \hbox (badness 10000) in paragraph at lines 519--521
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 652--655
+Underfull \hbox (badness 10000) in paragraph at lines 522--525
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
-[20
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 526.
+[18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 526.
  (./tz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 656.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 526.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 526.
 Package rerunfilecheck Info: File `tz.out' has not changed.
-(rerunfilecheck)             Checksum: 34CCC1BF9403F419362D8C41E653071F;1733.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 656.
+(rerunfilecheck)             Checksum: 084D13773CF34E8680D3F5D4DB15C593;1703.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 526.
  ) 
 Here is how much of TeX's memory you used:
- 10454 strings out of 494889
- 146921 string characters out of 6179444
+ 10447 strings out of 494889
+ 146824 string characters out of 6179444
  256265 words of memory out of 5000000
- 13474 multiletter control sequences out of 15000+600000
+ 13469 multiletter control sequences out of 15000+600000
  10449 words of font info for 39 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
- 37i,7n,39p,446b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,7n,39p,481b,544s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -1145,10 +1152,10 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on tz.pdf (21 pages, 1406549 bytes).
+Output written on tz.pdf (19 pages, 1403590 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 370 compressed objects within 4 object streams
- 130 named destinations out of 1000 (max. 500000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 128 named destinations out of 1000 (max. 500000)
  255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

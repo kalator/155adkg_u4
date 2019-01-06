@@ -15,7 +15,7 @@ private:
     std::vector<QPointFB> polB;
     std::vector<std::vector<QPointFB> > res;
     bool ab;
-    std::vector<std::vector<QPointFB> > buff;
+//    std::vector<std::vector<QPointFB> > buff;
     bool draw_pol;
 
 
@@ -32,7 +32,7 @@ public:
     void setB(std::vector<QPointFB> polB_){polB = polB_;}
     std::vector<QPointFB> getA(){return polA;}
     std::vector<QPointFB> getB(){return polB;}
-    void setBuff(std::vector<std::vector<QPointFB> > buff_) {buff=buff_;}
+//    void setBuff(std::vector<std::vector<QPointFB> > buff_) {buff=buff_;}
     void setDrawPol() {draw_pol = !draw_pol;}
     void loadPoints(std::string points_path, QSizeF &canvas_size);
 
