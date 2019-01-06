@@ -239,11 +239,13 @@ Množinové operace:
 % ===============================================================
 
 \section{Problematické situace}
+
+Problematické jsou polygony obsahující otvory - bylo by třeba speciální ošetření pro tyto případy. Jinak by mohlo dojít k tomu, že například při opraci Union bude do výsledku zahrnuta celá oblast včetně otvorů jakoby tam nebyly.
 \clearpage
 
 \section{Vstupní data}
 
-Dva polygony mohou být "nakresleny" klikáním do kanvasu, pomocí tlačítka \textit{Polygon A/B} lze přepínat mezi polygony.\\
+Dva polygony mohou být "nakresleny" klikáním do kanvasu pokud je zakšrnutá možnost \textit{Draw polygons}, pomocí tlačítka \textit{Polygon A/B} lze přepínat mezi polygony.\\
 
 \noindent Dále mohou být polygony nahrány pomocí tlačítka \textit{Load polygon}, v tom případě jsou data nahrána ze vstupního souboru *.txt, kde jsou souřadnice lomových bodů polygonů v tomto pořadí:
 \begin{enumerate}
