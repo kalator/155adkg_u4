@@ -240,10 +240,31 @@ Množinové operace:
 
 \section{Vstupní data}
 
+Dva polygony mohou být "nakresleny" klikáním do kanvasu, pomocí tlačítka \textit{Polygon A/B} lze přepínat mezi polygony.\\
 
-%--------------------------------------------------------------------------------------------------------------------------------------
+\noindent Dále mohou být polygony nahrány pomocí tlačítka \textit{Load polygon}, v tom případě jsou data nahrána ze vstupního souboru *.txt, kde jsou souřadnice lomových bodů polygonů v tomto pořadí:
+\begin{enumerate}
+\item	počet bodů v prvním polygonu 
+\item	 souřadnice X a Y (s desetinnou tečkou, pokud se nejedná o celé číslo) bodů prvního polygonu
+\item	 počet bodů v druhém polygonu
+\item souřadnice X a Y bodů druhého polygonu atd.
+\end{enumerate}
+
+Př.: Vstupní soubor se 2 polygony, kde první polygon obsahuje 3 body a druhý polygon 4 body bude vypadat následovně:\\
+ 
+\noindent 3 12.2 4.1 8.3 11.4 6.8 7.9 \\
+4 1.1 2.2 3.3 4.4 5.5 6.6 7 8\\
+
+Vše může být zapsáno do jednoho řádku, odděleno mezerami nebo jako v příkladu výše může každý útvar začínat na novém řádku.\\
+
+%\vspace{1cm}
+\section{Výstupní data}
+Výsledek aplikace je zobrazen graficky na kanvasu (červenou barvou).
 
 \clearpage
+%--------------------------------------------------------------------------------------------------------------------------------------
+
+
 \section{Ukázka vytvořené aplikace}
 
 \clearpage
