@@ -118,8 +118,10 @@ Množinové operace:
 \clearpage
 \section{Popis algoritmů}
 
-\subsection{Výpočet průsečíků}
 Nejprve bylo třeba určit průsečíky množin A a B a setřídit je. Následně byly ohodnoceny vrcholy množiny A resp. B podle pozice vůči B resp. A. Poté byly dle ohodnocení vybrány vrcholy a z nich vytvořeny fragmenty. Nakonec byl(y) z fragmentů vytvořen(y) výsledný/é polygon(y).
+
+\subsection{Výpočet průsečíků}
+V rámci tohoto algoritmu jsou vypočteny průsečíky polygonů a ukládány do datovéto typu map - kde klíč je $\alpha$/$\beta$ a hodnota průsečík. Po každém nalezení průsečíku je aktualizován seznam souřadnic bodů polygonu a to právě za využití parametru $\alpha$/$\beta$ tak, aby byly body ve správném pořadí. Nakonec jsou vrcholy množiny A resp. B ohodnoceny podle pozice vůči B resp. A za využití algoritmu \textit{getPositionWinding} z první úlohy - vždy je vypočten střed hrany a určena jeho poloha vůči druhému polygonu (viz setPositions).
 
 \subsubsection{Implementace metody}
 \begin{enumerate}
@@ -135,8 +137,6 @@ Nejprve bylo třeba určit průsečíky množin A a B a setřídit je. Následn�
 \item \hspace{3cm} ProcessIntersection $ (b, \alpha, A, i) $ //Zpracuj první průsečík pro $ e_i $
 \end{enumerate}
 
-\vspace{1cm}
-
 \textbf{Process Intersection} 
 \begin{enumerate}
 	\item $ if (|t| < \epsilon): $ 
@@ -148,9 +148,31 @@ Nejprve bylo třeba určit průsečíky množin A a B a setřídit je. Následn�
 	\item \hspace {1cm} if $P \longleftarrow  (b,i)$ // Přidej průsečík na pozici i+1
 \end{enumerate}
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{pruseciky.jpg}
+	\caption{Průsečíky množin A a B $^{[1]}$  }
+\end{figure}
+
+\textbf{setPositions}
+\begin{enumerate}
+	\item for $(i = 0; i < n, i++)$:
+	\item \hspace{1cm}$ M = \frac{p_i(x,y)+p_{i+1}(x,y)}{2}$ // Výpočet středu hrany
+	\item \hspace{1cm}pozice = \textit{GetPositionWinding($\bar{p},B$)} //Určení polohy M vůči množině B
+	\item \hspace{1cm}$p_i[pozice]$ = pozice
+\end{enumerate}
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{ohodnoceni_hran.jpg}
+	\caption{Ohodnocení hran $^{[1]}$ }
+\end{figure}
+
 \clearpage
 
 \subsection{Fragmenty}
+Nejprve jsou podle ohodnocení hran vytvořeny fragmenty = seznamy po sobě jdoucích bodů se stejným ohodnocením, počáteční bod fragmentu je vždy průsečík a koncový bod je první vrchol s jiným ohodnocením (další průsečík). Následně jsou fragmenty spojeny do oblastí.
 
 \subsubsection{Vytvoření fragmentů - implementace metody}
 \begin{enumerate}
@@ -188,22 +210,30 @@ Nejprve bylo třeba určit průsečíky množin A a B a setřídit je. Následn�
 
 \clearpage
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{fragmenty.jpg}
+	\caption{Fragmenty $^{[1]}$ }
+\end{figure}
+
+\vspace{1cm}
+
 \subsubsection{Sestavení oblastí z fragmentů - implementace metody}
 \begin{enumerate}
 	\item $ for \forall f \in F $
 	\item \hspace{1cm} $ P \longleftarrow \emptyset $ //Vytvoř prázdný polygon
 	\item \hspace{1cm} $ s \longleftarrow f.first $ //Najdi startovní bod fragmentu
 	\item \hspace{1cm} $ if (!f.second.first) $ //Pokud fragment již nebyl zpracován
-		\item \hspace{2cm} $ if (createPolygonFROMFragments(s,F,P)) $ 
+		\item \hspace{2cm} $ if (createPolygonFromFragments(s,F,P)) $ 
 			\item \hspace{3cm} $ C \longleftarrow P $ //Přidej polygon do seznamu	
 \end{enumerate}
+\clearpage
 
-\vspace{1.5cm}
-\subsubsection{Vytvoření polygonu z fragmentů  - implementace metody}
+\textbf{createPolygonFromFragments}
 
 \begin{enumerate}
 	\item  $ QPoint n \longleftarrow s $ //Inicializuj následující bod
-	\item for (;;) //Projdi všechyn fragmenty tvořící polygon
+	\item for (;;) //Projdi všechny fragmenty tvořící polygon
 	\item \hspace{1cm} $ f \longleftarrow F.find(n) $ //Najdi navazující fragment
 	\item \hspace{1cm} $ if (f \equiv F.end) $ // Fragment s takovým poč. bodem neexistuje
 	\item \hspace{2cm} $ return$ $ false $
@@ -217,7 +247,7 @@ Nejprve bylo třeba určit průsečíky množin A a B a setřídit je. Následn�
 \clearpage
 
 \subsection{Množinové operace}
-
+Výsledný algoritmus spojuje výše popsané kroky a 
 \subsubsection{Implementace metody}
 \begin{enumerate}
 	\item if $ (o(A) != CCW) $
@@ -241,7 +271,33 @@ Nejprve bylo třeba určit průsečíky množin A a B a setřídit je. Následn�
 
 \section{Problematické situace}
 
-Problematické jsou polygony obsahující otvory - bylo by třeba speciální ošetření pro tyto případy. Jinak by mohlo dojít k tomu, že například při opraci Union bude do výsledku zahrnuta celá oblast včetně otvorů jakoby tam nebyly.
+Problematické jsou polygony obsahující otvory - bylo by třeba speciální ošetření pro tyto případy. Jinak by mohlo dojít k tomu, že například při opraci Union bude do výsledku zahrnuta celá oblast včetně otvorů jakoby tam nebyly (obrázek vlevo). Správně řešení je zobrazeno na obrázku vpravo.\\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=6cm]{emental_sptne.jpg}
+	\includegraphics[width=6cm]{emental_spravne.jpg}
+	\caption{Problematické situace - polygon s otvoren $^{[1]}$ }
+\end{figure}
+
+%\begin{figure}[htp]
+%	\centering
+%	\includegraphics[width=100pt]{dino1.jpg}
+%	\includegraphics[width=100pt]{dino2.jpg}
+%	\includegraphics[width=100pt]{kaktus.jpg}
+%	\caption{Obrázky s jedním návěštím}
+%	\label{obr:jednoNavesti}
+%\end{figure}
+
+
+\noindent Dále jsou problematické situace, kdy množiny mají společný vrchol (nebo více vrcholů), společnou hranu, její část nebo segment hran.\\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=10cm]{singularity.jpg}
+	\caption{Problematické situace $^{[1]}$ }
+\end{figure}
+
 \clearpage
 
 \section{Vstupní data}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.13)  6 JAN 2019 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.13)  14 JAN 2019 11:20
 entering extended mode
 **./tz.tex
 (tz.tex
@@ -570,7 +570,7 @@ LaTeX Info: Redefining \nameref on input line 41.
  [1
 
 {C:/Users/Anna/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<zadani.pdf, id=114, 614.295pt x 794.97pt>
+<zadani.pdf, id=110, 614.295pt x 794.97pt>
 File: zadani.pdf Graphic file (type pdf)
 <use zadani.pdf>
 Package pdftex.def Info: zadani.pdf  used on input line 88.
@@ -602,7 +602,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 105.
-<BO.jpg, id=182, 2100.04575pt x 1252.68pt>
+<BO.jpg, id=178, 2100.04575pt x 1252.68pt>
 File: BO.jpg Graphic file (type jpg)
 <use BO.jpg>
 Package pdftex.def Info: BO.jpg  used on input line 113.
@@ -623,272 +623,311 @@ Package hyperref Warning: Composite letter `\textring+u'
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 121.
+(hyperref)                removing `\textasciicaron' on input line 123.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 121.
+(hyperref)                removing `\textring' on input line 123.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 121.
+(hyperref)                removing `\textasciicaron' on input line 123.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 121.
+(hyperref)                removing `\textring' on input line 123.
+
+<pruseciky.jpg, id=187, 569.7285pt x 444.4605pt>
+File: pruseciky.jpg Graphic file (type jpg)
+<use pruseciky.jpg>
+Package pdftex.def Info: pruseciky.jpg  used on input line 153.
+(pdftex.def)             Requested size: 284.52756pt x 221.96521pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3
 
 ]
+<ohodnoceni_hran.jpg, id=211, 675.7245pt x 443.85825pt>
+File: ohodnoceni_hran.jpg Graphic file (type jpg)
+<use ohodnoceni_hran.jpg>
+Package pdftex.def Info: ohodnoceni_hran.jpg  used on input line 168.
+(pdftex.def)             Requested size: 284.52756pt x 186.89326pt.
+ [4 <./pruseciky.jpg> <./ohodnoceni_hran.jpg>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 155.
+(hyperref)                removing `\textasciicaron' on input line 177.
 
 
 Package hyperref Warning: Composite letter `\textring+u'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 155.
-
-[4
-
-]
-
-Package hyperref Warning: Composite letter `\textring+u'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 191.
-
-
-Package hyperref Warning: Composite letter `\textasciicaron+r'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 202.
-
-
-Package hyperref Warning: Composite letter `\textring+u'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textring' on input line 202.
+(hyperref)                removing `\textring' on input line 177.
 
 [5
 
-] [6
+]
+<fragmenty.jpg, id=250, 484.209pt x 411.33675pt>
+File: fragmenty.jpg Graphic file (type jpg)
+<use fragmenty.jpg>
+Package pdftex.def Info: fragmenty.jpg  used on input line 215.
+(pdftex.def)             Requested size: 284.52756pt x 241.71371pt.
 
-] [7
+
+Package hyperref Warning: Composite letter `\textring+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textring' on input line 221.
+
+[6
+
+ <./fragmenty.jpg>] [7
+
+] [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+<emental_sptne.jpg, id=295, 1064.97874pt x 833.1125pt>
+File: emental_sptne.jpg Graphic file (type jpg)
+<use emental_sptne.jpg>
+Package pdftex.def Info: emental_sptne.jpg  used on input line 278.
+(pdftex.def)             Requested size: 170.71652pt x 133.54225pt.
+<emental_spravne.jpg, id=296, 1068.99374pt x 833.1125pt>
+File: emental_spravne.jpg Graphic file (type jpg)
+<use emental_spravne.jpg>
+Package pdftex.def Info: emental_spravne.jpg  used on input line 279.
+(pdftex.def)             Requested size: 170.71652pt x 133.04648pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+<singularity.jpg, id=297, 579.96675pt x 317.38576pt>
+File: singularity.jpg Graphic file (type jpg)
+<use singularity.jpg>
+Package pdftex.def Info: singularity.jpg  used on input line 297.
+(pdftex.def)             Requested size: 284.52756pt x 155.7141pt.
+[9
+
+ <./emental_sptne.jpg> <./emental_spravne.jpg> <./singularity.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--263
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
-<inter.jpg, id=282, 737.75626pt x 536.60475pt>
+<inter.jpg, id=304, 737.75626pt x 536.60475pt>
 File: inter.jpg Graphic file (type jpg)
 <use inter.jpg>
-Package pdftex.def Info: inter.jpg  used on input line 272.
+Package pdftex.def Info: inter.jpg  used on input line 328.
 (pdftex.def)             Requested size: 284.52756pt x 206.94963pt.
-[8
+[10
 
  <./inter.jpg>]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 277.
+(hyperref)                removing `\textasciicaron' on input line 333.
 
-<ap.jpg, id=293, 737.75626pt x 536.60475pt>
+<ap.jpg, id=314, 737.75626pt x 536.60475pt>
 File: ap.jpg Graphic file (type jpg)
 <use ap.jpg>
-Package pdftex.def Info: ap.jpg  used on input line 280.
+Package pdftex.def Info: ap.jpg  used on input line 336.
 (pdftex.def)             Requested size: 284.52756pt x 206.94963pt.
-<vstup.jpg, id=294, 737.75626pt x 536.60475pt>
+<vstup.jpg, id=315, 737.75626pt x 536.60475pt>
 File: vstup.jpg Graphic file (type jpg)
 <use vstup.jpg>
-Package pdftex.def Info: vstup.jpg  used on input line 287.
+Package pdftex.def Info: vstup.jpg  used on input line 343.
 (pdftex.def)             Requested size: 284.52756pt x 206.94963pt.
 File: inter.jpg Graphic file (type jpg)
 <use inter.jpg>
-Package pdftex.def Info: inter.jpg  used on input line 293.
+Package pdftex.def Info: inter.jpg  used on input line 349.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<union.jpg, id=295, 737.75626pt x 536.60475pt>
+<union.jpg, id=316, 737.75626pt x 536.60475pt>
 File: union.jpg Graphic file (type jpg)
 <use union.jpg>
-Package pdftex.def Info: union.jpg  used on input line 299.
+Package pdftex.def Info: union.jpg  used on input line 355.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<A-B.jpg, id=296, 737.75626pt x 536.60475pt>
+<A-B.jpg, id=317, 737.75626pt x 536.60475pt>
 File: A-B.jpg Graphic file (type jpg)
 <use A-B.jpg>
-Package pdftex.def Info: A-B.jpg  used on input line 305.
+Package pdftex.def Info: A-B.jpg  used on input line 361.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<B-A.jpg, id=297, 737.75626pt x 536.60475pt>
+<B-A.jpg, id=318, 737.75626pt x 536.60475pt>
 File: B-A.jpg Graphic file (type jpg)
 <use B-A.jpg>
-Package pdftex.def Info: B-A.jpg  used on input line 312.
+Package pdftex.def Info: B-A.jpg  used on input line 368.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9
+[11
 
- <./ap.jpg> <./vstup.jpg>] [10 <./union.jpg>] [11 <./A-B.jpg> <./B-A.jpg>]
-Overfull \hbox (5.63643pt too wide) in paragraph at lines 350--351
+ <./ap.jpg> <./vstup.jpg>] [12 <./union.jpg>] [13 <./A-B.jpg> <./B-A.jpg>]
+Overfull \hbox (5.63643pt too wide) in paragraph at lines 406--407
 [][]\OT1/cmr/m/n/12 Clenska promenna \OT1/cmr/bx/n/12 pos \OT1/cmr/m/n/12 - 
 in-di-kuje po-lohu bodu vuci po-ly-gonu, jejm ty-pem je \OT1/cmr/bx/n/12 TP
 oint-
  []
 
 
-Overfull \hbox (34.30626pt too wide) in paragraph at lines 357--358
+Overfull \hbox (34.30626pt too wide) in paragraph at lines 413--414
 []\OT1/cmr/bx/n/12 setAlfa, setBeta, se-tIn-ters, setPo-si-tion \OT1/cmr/m/n/12
  - na-sta-ven hod-not clenskych promennych 
  []
 
-[12
+[14
 
 ]
-Overfull \hbox (15.1541pt too wide) in paragraph at lines 387--388
+Overfull \hbox (15.1541pt too wide) in paragraph at lines 443--444
 \OT1/cmr/m/n/12 hod-nota jeho pa-ra-me-tru \OT1/cmr/bx/n/12 al-fa-/beta\OT1/cmr
 /m/n/12 , ob-last zpra-covan \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <
 $\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >$
  []
 
 
-Overfull \hbox (8.68832pt too wide) in paragraph at lines 399--400
+Overfull \hbox (8.68832pt too wide) in paragraph at lines 455--456
 []\OT1/cmr/m/n/12 Pomocna me-toda me-tody \OT1/cmr/bx/n/12 cre-a-teFrag-ments 
 \OT1/cmr/m/n/12 pro vypocet frag-mentu. Vystupnm
  []
 
 
-Overfull \hbox (26.5932pt too wide) in paragraph at lines 399--400
+Overfull \hbox (26.5932pt too wide) in paragraph at lines 455--456
 \OT1/cmr/m/n/12 pocatecnho bodu frag-mentu \OT1/cmr/bx/n/12 int i[]start\O
 T1/cmr/m/n/12 , body po-ly-gonu \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <
 $\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >$
  []
 
 
-Overfull \hbox (42.48456pt too wide) in paragraph at lines 403--404
+Overfull \hbox (42.48456pt too wide) in paragraph at lines 459--460
 \OT1/cmr/m/n/12 a vek-tor vek-toru bodu vyslednych po-ly-gonu \OT1/cmr/bx/
 n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/
 12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >>$
  []
 
-[13]
-Overfull \hbox (11.49619pt too wide) in paragraph at lines 411--412
+[15]
+Overfull \hbox (11.49619pt too wide) in paragraph at lines 467--468
 \OT1/cmr/m/n/12 znamenkem ori-en-taci po-ly-gonu. Na vstupu je po-ly-gon \OT1/
 cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m
 /it/12 >$
  []
 
 
-Overfull \hbox (39.69748pt too wide) in paragraph at lines 415--416
+Overfull \hbox (39.69748pt too wide) in paragraph at lines 471--472
 \OT1/cmr/m/n/12 vstupu jsou dva po-ly-gony, nad nimiz jsou ope-race poctan
 y: \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 QPointFB$\O
 ML/cmm/m/it/12 >$
  []
 
-[14]
-Overfull \hbox (10.0897pt too wide) in paragraph at lines 441--442
+[16]
+Overfull \hbox (10.0897pt too wide) in paragraph at lines 497--498
 []\OT1/cmr/m/n/12 Metoda zajist[]ujc ulozen na-kli-kanych bodu do pr
 slusnych po-ly-gonu. Vystupnm
  []
 
 
-Overfull \hbox (15.47675pt too wide) in paragraph at lines 453--454
+Overfull \hbox (15.47675pt too wide) in paragraph at lines 509--510
 []\OT1/cmr/m/n/12 Metody \OT1/cmr/bx/n/12 se-tRes \OT1/cmr/m/n/12 resp. \OT1/cm
 r/bx/n/12 setA \OT1/cmr/m/n/12 resp. \OT1/cmr/bx/n/12 setB \OT1/cmr/m/n/12 slou
 zc pro ulozen po-ly-gonu do prslusnych
  []
 
-[15] [16]
+[17] [18]
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 502.
+(hyperref)                removing `\textasciicaron' on input line 558.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 508.
+(hyperref)                removing `\textasciicaron' on input line 564.
 
-[17
+[19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 520--522
+Underfull \hbox (badness 10000) in paragraph at lines 576--578
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 523--526
+Underfull \hbox (badness 10000) in paragraph at lines 579--582
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
-[18
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 583.
+[20
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 583.
  (tz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 583.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 583.
 Package rerunfilecheck Info: File `tz.out' has not changed.
-(rerunfilecheck)             Checksum: 8B2F9FA1D7B83A726BF67CAB4869FFF2;1729.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 527.
+(rerunfilecheck)             Checksum: F6F3C803D9B1C0FDDEFBD70CC8763E07;1613.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
  ) 
 Here is how much of TeX's memory you used:
- 10176 strings out of 492970
- 148014 string characters out of 3127037
+ 10215 strings out of 492970
+ 148654 string characters out of 3127037
  266270 words of memory out of 3000000
- 13759 multiletter control sequences out of 15000+200000
+ 13782 multiletter control sequences out of 15000+200000
  10449 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,7n,39p,483b,540s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,7n,39p,612b,540s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/Anna/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Anna/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Anna/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Use
-rs/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Use
+rs/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.
 pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Anna/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Anna/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Anna/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/An
-na/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-<C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti10.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmti12.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on tz.pdf (19 pages, 1442447 bytes).
+s/cm/cmmi8.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Anna/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Anna/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Anna/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/A
+nna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr9.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Anna/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Anna/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on tz.pdf (21 pages, 1863122 bytes).
 PDF statistics:
- 411 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
 
