@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.13)  14 JAN 2019 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.11.13)  14 JAN 2019 14:52
 entering extended mode
 **./tz.tex
 (tz.tex
@@ -685,59 +685,64 @@ Package hyperref Warning: Composite letter `\textring+u'
 
  <./fragmenty.jpg>] [7
 
-] [8
+]
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+[8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
 <emental_sptne.jpg, id=295, 1064.97874pt x 833.1125pt>
 File: emental_sptne.jpg Graphic file (type jpg)
 <use emental_sptne.jpg>
-Package pdftex.def Info: emental_sptne.jpg  used on input line 278.
+Package pdftex.def Info: emental_sptne.jpg  used on input line 280.
 (pdftex.def)             Requested size: 170.71652pt x 133.54225pt.
 <emental_spravne.jpg, id=296, 1068.99374pt x 833.1125pt>
 File: emental_spravne.jpg Graphic file (type jpg)
 <use emental_spravne.jpg>
-Package pdftex.def Info: emental_spravne.jpg  used on input line 279.
+Package pdftex.def Info: emental_spravne.jpg  used on input line 281.
 (pdftex.def)             Requested size: 170.71652pt x 133.04648pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 <singularity.jpg, id=297, 579.96675pt x 317.38576pt>
 File: singularity.jpg Graphic file (type jpg)
 <use singularity.jpg>
-Package pdftex.def Info: singularity.jpg  used on input line 297.
+Package pdftex.def Info: singularity.jpg  used on input line 290.
 (pdftex.def)             Requested size: 284.52756pt x 155.7141pt.
 [9
 
  <./emental_sptne.jpg> <./emental_spravne.jpg> <./singularity.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--316
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 <inter.jpg, id=304, 737.75626pt x 536.60475pt>
 File: inter.jpg Graphic file (type jpg)
 <use inter.jpg>
-Package pdftex.def Info: inter.jpg  used on input line 328.
+Package pdftex.def Info: inter.jpg  used on input line 321.
 (pdftex.def)             Requested size: 284.52756pt x 206.94963pt.
 [10
 
@@ -745,21 +750,21 @@ Package pdftex.def Info: inter.jpg  used on input line 328.
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 333.
+(hyperref)                removing `\textasciicaron' on input line 326.
 
 <ap.jpg, id=314, 737.75626pt x 536.60475pt>
 File: ap.jpg Graphic file (type jpg)
 <use ap.jpg>
-Package pdftex.def Info: ap.jpg  used on input line 336.
+Package pdftex.def Info: ap.jpg  used on input line 329.
 (pdftex.def)             Requested size: 284.52756pt x 206.94963pt.
 <vstup.jpg, id=315, 737.75626pt x 536.60475pt>
 File: vstup.jpg Graphic file (type jpg)
 <use vstup.jpg>
-Package pdftex.def Info: vstup.jpg  used on input line 343.
+Package pdftex.def Info: vstup.jpg  used on input line 336.
 (pdftex.def)             Requested size: 284.52756pt x 206.94963pt.
 File: inter.jpg Graphic file (type jpg)
 <use inter.jpg>
-Package pdftex.def Info: inter.jpg  used on input line 349.
+Package pdftex.def Info: inter.jpg  used on input line 342.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -767,7 +772,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <union.jpg, id=316, 737.75626pt x 536.60475pt>
 File: union.jpg Graphic file (type jpg)
 <use union.jpg>
-Package pdftex.def Info: union.jpg  used on input line 355.
+Package pdftex.def Info: union.jpg  used on input line 348.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -775,7 +780,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <A-B.jpg, id=317, 737.75626pt x 536.60475pt>
 File: A-B.jpg Graphic file (type jpg)
 <use A-B.jpg>
-Package pdftex.def Info: A-B.jpg  used on input line 361.
+Package pdftex.def Info: A-B.jpg  used on input line 354.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -783,7 +788,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <B-A.jpg, id=318, 737.75626pt x 536.60475pt>
 File: B-A.jpg Graphic file (type jpg)
 <use B-A.jpg>
-Package pdftex.def Info: B-A.jpg  used on input line 368.
+Package pdftex.def Info: B-A.jpg  used on input line 361.
 (pdftex.def)             Requested size: 341.43306pt x 248.33955pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -791,14 +796,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [11
 
  <./ap.jpg> <./vstup.jpg>] [12 <./union.jpg>] [13 <./A-B.jpg> <./B-A.jpg>]
-Overfull \hbox (5.63643pt too wide) in paragraph at lines 406--407
+Overfull \hbox (5.63643pt too wide) in paragraph at lines 399--400
 [][]\OT1/cmr/m/n/12 Clenska promenna \OT1/cmr/bx/n/12 pos \OT1/cmr/m/n/12 - 
 in-di-kuje po-lohu bodu vuci po-ly-gonu, jejm ty-pem je \OT1/cmr/bx/n/12 TP
 oint-
  []
 
 
-Overfull \hbox (34.30626pt too wide) in paragraph at lines 413--414
+Overfull \hbox (34.30626pt too wide) in paragraph at lines 406--407
 []\OT1/cmr/bx/n/12 setAlfa, setBeta, se-tIn-ters, setPo-si-tion \OT1/cmr/m/n/12
  - na-sta-ven hod-not clenskych promennych 
  []
@@ -806,54 +811,54 @@ Overfull \hbox (34.30626pt too wide) in paragraph at lines 413--414
 [14
 
 ]
-Overfull \hbox (15.1541pt too wide) in paragraph at lines 443--444
+Overfull \hbox (15.1541pt too wide) in paragraph at lines 436--437
 \OT1/cmr/m/n/12 hod-nota jeho pa-ra-me-tru \OT1/cmr/bx/n/12 al-fa-/beta\OT1/cmr
 /m/n/12 , ob-last zpra-covan \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <
 $\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >$
  []
 
 
-Overfull \hbox (8.68832pt too wide) in paragraph at lines 455--456
+Overfull \hbox (8.68832pt too wide) in paragraph at lines 448--449
 []\OT1/cmr/m/n/12 Pomocna me-toda me-tody \OT1/cmr/bx/n/12 cre-a-teFrag-ments 
 \OT1/cmr/m/n/12 pro vypocet frag-mentu. Vystupnm
  []
 
 
-Overfull \hbox (26.5932pt too wide) in paragraph at lines 455--456
+Overfull \hbox (26.5932pt too wide) in paragraph at lines 448--449
 \OT1/cmr/m/n/12 pocatecnho bodu frag-mentu \OT1/cmr/bx/n/12 int i[]start\O
 T1/cmr/m/n/12 , body po-ly-gonu \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <
 $\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >$
  []
 
 
-Overfull \hbox (42.48456pt too wide) in paragraph at lines 459--460
+Overfull \hbox (42.48456pt too wide) in paragraph at lines 452--453
 \OT1/cmr/m/n/12 a vek-tor vek-toru bodu vyslednych po-ly-gonu \OT1/cmr/bx/
 n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/
 12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m/it/12 >>$
  []
 
 [15]
-Overfull \hbox (11.49619pt too wide) in paragraph at lines 467--468
+Overfull \hbox (11.49619pt too wide) in paragraph at lines 460--461
 \OT1/cmr/m/n/12 znamenkem ori-en-taci po-ly-gonu. Na vstupu je po-ly-gon \OT1/
 cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 QPointFB$\OML/cmm/m
 /it/12 >$
  []
 
 
-Overfull \hbox (39.69748pt too wide) in paragraph at lines 471--472
+Overfull \hbox (39.69748pt too wide) in paragraph at lines 464--465
 \OT1/cmr/m/n/12 vstupu jsou dva po-ly-gony, nad nimiz jsou ope-race poctan
 y: \OT1/cmr/bx/n/12 std::vector$\OML/cmm/m/it/12 <$\OT1/cmr/bx/n/12 QPointFB$\O
 ML/cmm/m/it/12 >$
  []
 
 [16]
-Overfull \hbox (10.0897pt too wide) in paragraph at lines 497--498
+Overfull \hbox (10.0897pt too wide) in paragraph at lines 490--491
 []\OT1/cmr/m/n/12 Metoda zajist[]ujc ulozen na-kli-kanych bodu do pr
 slusnych po-ly-gonu. Vystupnm
  []
 
 
-Overfull \hbox (15.47675pt too wide) in paragraph at lines 509--510
+Overfull \hbox (15.47675pt too wide) in paragraph at lines 502--503
 []\OT1/cmr/m/n/12 Metody \OT1/cmr/bx/n/12 se-tRes \OT1/cmr/m/n/12 resp. \OT1/cm
 r/bx/n/12 setA \OT1/cmr/m/n/12 resp. \OT1/cmr/bx/n/12 setB \OT1/cmr/m/n/12 slou
 zc pro ulozen po-ly-gonu do prslusnych
@@ -863,36 +868,36 @@ r/bx/n/12 setA \OT1/cmr/m/n/12 resp. \OT1/cmr/bx/n/12 setB \OT1/cmr/m/n/12 slou
 
 Package hyperref Warning: Composite letter `\textasciicaron+r'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 558.
+(hyperref)                removing `\textasciicaron' on input line 551.
 
 
 Package hyperref Warning: Composite letter `\textasciicaron+e'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 564.
+(hyperref)                removing `\textasciicaron' on input line 557.
 
 [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 576--578
+Underfull \hbox (badness 10000) in paragraph at lines 569--571
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--582
+Underfull \hbox (badness 10000) in paragraph at lines 572--575
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 583.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 576.
 [20
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 583.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 576.
  (tz.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 583.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 583.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 576.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 576.
 Package rerunfilecheck Info: File `tz.out' has not changed.
 (rerunfilecheck)             Checksum: F6F3C803D9B1C0FDDEFBD70CC8763E07;1613.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 583.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 576.
  ) 
 Here is how much of TeX's memory you used:
  10215 strings out of 492970
@@ -925,7 +930,7 @@ e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Anna/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Anna/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Anna/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on tz.pdf (21 pages, 1863122 bytes).
+Output written on tz.pdf (21 pages, 1863123 bytes).
 PDF statistics:
  439 PDF objects out of 1000 (max. 8388607)
  138 named destinations out of 1000 (max. 500000)
