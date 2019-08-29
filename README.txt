@@ -1,0 +1,1 @@
+Tento repozitar slouzil k praci na uloze 4 v roce 2018 v predmetu 155ADKG vyucovaneho na katedre Geomatiky na FSv CVUT. Autory jsou skvela dvojka Anicka a Michal.
